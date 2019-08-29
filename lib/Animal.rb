@@ -16,8 +16,6 @@ class Animal
     end
 
     def zoo
-       Zoo.all.select do |zoo_singular|
-        Zoo.name == self
-       end
+     @name
     end
 end

@@ -13,9 +13,8 @@ z3 = Zoo.new("Prospect Park Zoo", "Brooklyn")
 a1 = Animal.new("Lion", 100, "Simba", z3)
 a2 = Animal.new("Chupacabra", 500, "Chu", z2)
 a3 = Animal.new("Elephant", 2000, "Dumbo", z1)
-
-
-
+a4 = Animal.new("donkey", 500, "proves itz1", z1)
+a5 = Animal.new("Lion", 100, "other", z2)
 
 binding.pry
 puts "done"
